@@ -1,0 +1,26 @@
+# Julia
+*.jl.cov
+*.jl.mem
+*.jl.*.cov
+/deps/deps.jl
+/deps/build.log
+/deps/downloads/
+/deps/usr/
+/deps/src/
+/docs/build/
+/docs/site/
+/Manifest.toml.bak
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python (in case helper scripts grow)
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
