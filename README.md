@@ -36,7 +36,6 @@ This repository contains the numerical data needed to reproduce the figures of t
 └── LICENSE               # CC BY 4.0
 ```
 
-Figures that do not appear above (1–5, 10, 11, 15) are not accompanied by numerical data in this repository. Individual panels of Figure 12 (12a–d) are cross-sections of the full dataset stored in `Data/Figure12.jld2`; see `Data/README.md` for the exact mapping.
 
 ## Requirements
 
@@ -56,12 +55,6 @@ Pkg.instantiate()
 
 using JLD2
 data = load("Data/Figure6.jld2")        # returns a Dict{String,Any}
-```
-
-Or simply run the bundled helper:
-
-```bash
-julia --project=. scripts/load_data.jl Data/Figure6.jld2
 ```
 
 ### For non-Julia users
@@ -88,7 +81,6 @@ If you use this dataset, please cite the accompanying paper:
 }
 ```
 
-GitHub's "Cite this repository" button (powered by `CITATION.cff`) also provides BibTeX and APA entries.
 
 ## License
 
