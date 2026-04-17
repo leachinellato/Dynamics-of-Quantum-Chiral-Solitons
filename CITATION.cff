@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the accompanying paper."
+title: "Dynamics of Quantum Chiral Solitons — figure data"
+abstract: >-
+  Numerical data used to produce the figures of the manuscript
+  "Dynamics of Quantum Chiral Solitons" (arXiv:2512.08220).
+type: dataset
+authors:
+  - family-names: Chinellato
+    given-names: Leandro M.
+  - family-names: Starykh
+    given-names: Oleg A.
+  - family-names: Batista
+    given-names: Cristian D.
+license: CC-BY-4.0
+repository-code: "https://github.com/leachinellato/Dynamics-of-Quantum-Chiral-Solitons"
+preferred-citation:
+  type: article
+  title: "Dynamics of Quantum Chiral Solitons"
+  authors:
+    - family-names: Chinellato
+      given-names: Leandro M.
+    - family-names: Starykh
+      given-names: Oleg A.
+    - family-names: Batista
+      given-names: Cristian D.
+  year: 2025
+  url: "https://arxiv.org/abs/2512.08220"
+  identifiers:
+    - type: other
+      value: "arXiv:2512.08220"
+      description: arXiv preprint
